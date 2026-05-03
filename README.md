@@ -17,9 +17,8 @@ This app allows you to:
 ---
 
 ## 📺 Screenshots
-<img width="1320" height="2868" alt="Simulator Screenshot - iPhone 17 Pro Max - 2026-05-04 at 00 41 09" src="https://github.com/user-attachments/assets/4d941892-7b3f-44d6-a61f-94d79a10242e" />
-<img width="1320" height="2868" alt="Simulator Screenshot - iPhone 17 Pro Max - 2026-05-04 at 00 41 25" src="https://github.com/user-attachments/assets/b9e07fea-75da-4014-8fa8-e71e0cbe0f28" />
 
+<img width="660" height="717" alt="SquareGPS_Screenshots" src="https://github.com/user-attachments/assets/68138f10-a0c6-425a-93e3-b970b5e79daa" />
 
 ## 🚀 How to run
 
