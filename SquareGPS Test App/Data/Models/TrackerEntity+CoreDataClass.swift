@@ -2,14 +2,12 @@
 //  TrackerEntity+CoreDataClass.swift
 //  SquareGPS Test App
 //
-//  Created by Антон Пеньков on 01.05.2026.
+//  Created by Антон Пеньков on 04.05.2026.
 //
 //
 
-public import Foundation
-public import CoreData
-
-public typealias TrackerEntityCoreDataClassSet = NSSet
+import Foundation
+import CoreData
 
 @objc(TrackerEntity)
 public class TrackerEntity: NSManagedObject {

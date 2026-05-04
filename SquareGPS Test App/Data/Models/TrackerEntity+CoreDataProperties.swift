@@ -2,15 +2,12 @@
 //  TrackerEntity+CoreDataProperties.swift
 //  SquareGPS Test App
 //
-//  Created by Антон Пеньков on 01.05.2026.
+//  Created by Антон Пеньков on 04.05.2026.
 //
 //
 
-public import Foundation
-public import CoreData
-
-
-public typealias TrackerEntityCoreDataPropertiesSet = NSSet
+import Foundation
+import CoreData
 
 extension TrackerEntity {
 
@@ -18,10 +15,10 @@ extension TrackerEntity {
         return NSFetchRequest<TrackerEntity>(entityName: "TrackerEntity")
     }
 
+    @NSManaged public var deviceId: String?
     @NSManaged public var id: Int64
     @NSManaged public var label: String?
     @NSManaged public var model: String?
-    @NSManaged public var deviceId: String?
     @NSManaged public var latitude: Double
     @NSManaged public var longitude: Double
     @NSManaged public var heading: Double

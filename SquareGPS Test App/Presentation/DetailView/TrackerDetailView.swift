@@ -13,7 +13,6 @@ struct TrackerDetailView: View {
 
     var body: some View {
         ZStack {
-            // Пастельный фон
             LinearGradient(
                 gradient: Gradient(colors: [
                     Color(red: 0.98, green: 0.91, blue: 0.96),
@@ -68,9 +67,8 @@ struct TrackerDetailView: View {
                 .shadow(color: Color(.sRGBLinear, white: 0.3, opacity: 0.14), radius: 12, x: 0, y: 7)
                 .padding(.horizontal)
 
-                // Карта с маркером (или заглушкой)
                 if let coord = viewModel.currentCoordinate {
-                    TrackersMapView(coordinate: coord)
+                    TrackersMapView(coordinate: coord, trackerName: viewModel.tracker.label)
                         .frame(height: 350)
                         .background(Color.white.opacity(0.9))
                         .cornerRadius(20)
@@ -94,7 +92,6 @@ struct TrackerDetailView: View {
     }
 }
 
-// Для предпросмотра — мок-ViewModel:
 #Preview {
     let tracker = Tracker(
         id: 1, label: "Demo", model: "X1",

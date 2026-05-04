@@ -10,9 +10,33 @@
 		D273A5E22FA4D876004995CE /* SquareGPS Test App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SquareGPS Test App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D247748F2FA8DA6900E98BE3 /* Exceptions for "SquareGPS Test App" folder in "SquareGPS Test App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				SquareGPS_Test_App.xcdatamodeld,
+			);
+			target = D273A5E12FA4D876004995CE /* SquareGPS Test App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		D24774912FA8DA6E00E98BE3 /* Exceptions for "SquareGPS Test App" folder in "Copy Bundle Resources" phase from "SquareGPS Test App" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = D273A5E02FA4D876004995CE /* Resources */;
+			membershipExceptions = (
+				SquareGPS_Test_App.xcdatamodeld,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D273A5E42FA4D876004995CE /* SquareGPS Test App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D247748F2FA8DA6900E98BE3 /* Exceptions for "SquareGPS Test App" folder in "SquareGPS Test App" target */,
+				D24774912FA8DA6E00E98BE3 /* Exceptions for "SquareGPS Test App" folder in "Copy Bundle Resources" phase from "SquareGPS Test App" target */,
+			);
 			path = "SquareGPS Test App";
 			sourceTree = "<group>";
 		};

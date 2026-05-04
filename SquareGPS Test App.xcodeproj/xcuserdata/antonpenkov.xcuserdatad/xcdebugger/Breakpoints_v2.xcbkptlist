@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
-   uuid = "B28DAC2F-436D-4214-B189-68B816BB77A0"
+   uuid = "6126697F-72E5-4933-BEA4-EE7A3B7C1B9D"
    type = "1"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F1AE66B4-F404-4B52-B37A-96374C84029B"
+            uuid = "E17D601B-2625-4939-B37F-C6B9A6207F44"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SquareGPS Test App/ContentView.swift"
+            filePath = "SquareGPS Test App/Domain/UseCase/GetTrackerDetailUseCase.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "body"
-            landmarkType = "24">
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "GetTrackerDetailUseCase"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
